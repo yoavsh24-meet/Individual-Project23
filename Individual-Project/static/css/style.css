@@ -1,0 +1,82 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+}
+.headliner{  font-size: 80px;
+    padding:0;
+    margin:0;}
+table {
+    width: 100%;
+}
+.my_arts {
+    "ProximaNovaCond",sans-serif
+
+    width: 50%;
+    background-color: cream;
+}
+
+.user_arts {
+    width: 50%;
+    background-color: crimson;
+}
+
+.no_points {
+    list-style-type: none;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+/* Reset some default styles to make sure we start from a clean slate */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the form container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+/* Style the input labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style the input fields */
+.input-group input {
+  background-color:	#880808;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style the submit button */
+.page_button {
+  background-color: 	#880808;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Add a hover effect to the button */
+.page_button:hover {
+  background-color: #AA4A44	;}
+.titleheader {font-size:40px;}

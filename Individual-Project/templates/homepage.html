@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Today's homepage</title>
+    <center><img src="static/news.webp" style="width:400px;400px;"></center>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+</head>
+
+<body>
+
+<!-- HeadBar -->
+ <img  src="static//leek.png" style="width:80px;height:80px;" ><img src="static/meet.png"><br>
+<a href="/new_article"><center><button class="page_button">Add an article</button></center></a>
+
+<!--Main Content-->
+
+<table>
+    <th class="titleheader">Official , verified reports:</th>
+    <th class="titleheader">Unofficial, unverified reports:</th>
+        <tr>
+<!--            My Articles -->
+            <td class="my_arts">
+                <ul class="no_points">
+                    <li>
+                        <img src="static/iasa.jpg" style=" width:720px;1000px;">
+                        <h1 >Breaking news: IASA infested by RATS</h1>
+                        <h3><br>'we had no clue' says a kitchen staff member, holding a suspiciously rat shaped sausage</h3>
+                        <img src="static/fusbol.jpeg" style=" width:720px;1000px;">
+                        <h1>DRAMA AT THE LOBBY: Fussball game linked to illegal gambling ring</h1>
+                        <h3>Mustafa has been made aware of the situation, 3 students have been removed from the program so far</h3>
+                        <img src="static/talent.jpg" style=" width:720px;1000px;">
+                        <h1>MEET talent show has been wont by WHO????</h1>
+                        <h3>Our reporters still don't know, it hadn't occured yet</h3>
+                        <img src="static/blackrock.png" style="width:720px;1000px;">
+                        <h1>MEET has been purchased for a gazilion dollars by Blackrock foundation</h1>
+                        <h3>'Croissants are back on the menu' says the MEET financial department</h3>
+                    </li>
+                </ul>
+            </td>
+
+<!--            User articles -->
+            <td class="user_arts">
+                    <ul class="no_points">
+                        {% for key, article in articles.items() %}
+                        <li>
+
+                            <h1 >{{ article['headline'] }}</h1>
+                            <h3><br>{{ article['text'] }}</h3>
+
+
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

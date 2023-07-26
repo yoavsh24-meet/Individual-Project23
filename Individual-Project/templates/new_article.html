@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="static/css/style.css">
+ <img  src="static//leek.png" style="width:80px;height:80px;" ><img src="static/meet.png">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <title>New Article</title>
+</head>
+<body>
+    <form method="POST" action="/new_article" enctype="multipart/form-data">
+        <div>
+            <label>Your headline</label>
+            <div class="input-group">
+                <input type="text" name="headline" >
+            </div>
+        </div>
+
+        <div>
+            <label>Your text</label>
+            <div class="input-group">
+                <input type="text" name="text">
+            </div>
+        </div>
+
+        <div>
+
+
+        <div>
+            <center><input class="page_button" type="submit" value="Submit"></center>
+        </div>
+    </form>
+</body>
+</html>
